@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="678.0" prefWidth="868.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nqueenfx.FXMLDocumentController">
+   <children>
+      <StackPane fx:id="stackPane" layoutX="14.0" layoutY="14.0" prefHeight="650.0" prefWidth="650.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="204.0" AnchorPane.topAnchor="14.0" />
+      <VBox alignment="TOP_CENTER" layoutX="685.0" layoutY="14.0" prefHeight="650.0" prefWidth="169.0" spacing="10.0" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <children>
+            <TextField fx:id="sizeField" promptText="Size" />
+            <Button fx:id="button" mnemonicParsing="false" onAction="#executeOnAction" text="Execute" />
+            <Separator prefWidth="200.0" />
+            <Label fx:id="timeLabel" text="Time" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
